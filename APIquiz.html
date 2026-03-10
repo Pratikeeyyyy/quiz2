@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="Apistyle.css" />
+  </head>
+  <body>
+    <div class="quiz-container">
+      <h1 class="quiz-title">JavaScript Quiz</h1>
+
+      <!-- Start Button -->
+      <div class="start-box">
+        <button id="startBtn">Start Quiz</button>
+      </div>
+
+      <div class="question-box">
+        <h2 id="question">Question goes here</h2>
+
+        <div class="options" id="options">
+          <label class="option">
+            <input type="radio" name="answer" value="0" />
+            <span id="option1">Option 1</span>
+          </label>
+
+          <label class="option">
+            <input type="radio" name="answer" value="1" />
+            <span id="option2">Option 2</span>
+          </label>
+
+          <label class="option">
+            <input type="radio" name="answer" value="2" />
+            <span id="option3">Option 3</span>
+          </label>
+
+          <label class="option">
+            <input type="radio" name="answer" value="3" />
+            <span id="option4">Option 4</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="quiz-footer">
+        <button id="nextBtn">Next Question</button>
+      </div>
+
+      <div class="result" id="result"></div>
+    </div>
+    <script src="Apistyle.js"></script>
+  </body>
+</html>
