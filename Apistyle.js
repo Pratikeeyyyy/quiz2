@@ -1,30 +1,4 @@
-// // fetching the Api
-// async function click() {
-//   try {
-//     const quizAPI = await fetch("https://opentdb.com/api.php?amount=10");
 
-//     console.log(quizAPI);
-//     const quiz = await quizAPI.json();
-//     console.log(quiz);
-
-//     const startquiz = document.getElementById("startBtn");
-//     console.log(startquiz);
-//     //start quiz button
-//     startquiz.addEventListener("click", function () {
-//       questionBox.style.display = "block";
-//       quizFooter.style.display = "block";
-//       startbutton.style.display = "none";
-//     });
-//     //   for showing questions
-//     function showQuestion() {
-//       const currentQuestion = quiz[currentIndex];
-//       document.getElementById("question").innerHTML = currentQuestion;
-//       document.getElementById("option1");
-//     }
-//   } catch (error) {
-//     console.error(error);
-//   }
-// }
 let questions = [];
 let currentIndex = 0;
 let score = 0;
